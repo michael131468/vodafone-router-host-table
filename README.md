@@ -79,6 +79,8 @@ environment variable ROUTER_USERNAME when calling the script.
 This tool was developed against the router firmware version: 19.3B70-1.2.49.
 This tool may not work on different versions (it is untested).
 
+I have a small write up on the [reverse engineering notes here][0].
+
 It is also important not to store the password in a trivial to access manner as
 that could be a security risk. This script makes no attempt to handle the
 security of the password, it simply expects to receive the password via an
@@ -88,4 +90,5 @@ environment variable and puts no requirements on how that environment gets set.
 
 The script is licensed under MIT. See LICENSE for details.
 
+[0]: docs/reverse-engineering.md
 [1]: https://pypi.org/project/pbkdf2/
